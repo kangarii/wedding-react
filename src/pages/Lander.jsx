@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Home from '../components/Home';
 import Bride from '../components/Bride';
-import Date from '../components/Date';
 import Quote from '../components/Quote';
 import Lovegift from '../components/Lovegift';
+import Akad from '../components/Akad';
 
 export default function Lander() {
     return (
@@ -13,8 +13,9 @@ export default function Lander() {
             <Home />
             <Bride />
             <Quote />
-            <Date />
+            <Akad />
             <Lovegift />
+            <Footer />
         </>
     );
 }

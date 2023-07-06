@@ -4,13 +4,17 @@ import { useNavigate } from 'react-router-dom';
 export default function Login() {
     const navigate = useNavigate();
     return (
-        <div className='container my-48'>
+        <div
+            className='container my-28'
+            data-aos='zoom-in'
+            data-aos-duration='500'
+        >
             <div className='flex flex-col w-full items-center justify-center text-primary'>
                 <div className='flex flex-col items-center justify-center'>
                     <img
                         src='assets/flower/1.png'
                         alt=''
-                        className='w-72 flex absolute bottom-48'
+                        className='w-72 flex absolute -bottom-20'
                     />
                     <div className='flex flex-col items-center justify-center border-[4px] border-primary rounded-3xl py-14  px-5'>
                         <div className='flex flex-col items-center justify-center '>
@@ -46,7 +50,7 @@ export default function Login() {
                     <img
                         src='assets/flower/2.png'
                         alt=''
-                        className='w-72 absolute top-28'
+                        className='w-72 absolute -top-20'
                     />
                 </div>
             </div>

@@ -4,25 +4,29 @@ function Bride() {
     return (
         <div className='container'>
             <div className='flex flex-col w-full items-center justify-center text-center mb-8'>
-                <h1 className='font-semibold text-third text-2xl border-b-[4px] px-4 border-primary'>
+                <h1 className='font-semibold text-third lg:text-2xl border-b-[4px] px-4 border-primary'>
                     WITH GREAT PLEASURE
                 </h1>
-                <h1 className='font-semibold text-7xl text-primary'>
+                <h1 className='font-semibold font-notoserif text-5xl lg:text-7xl text-primary'>
                     INVITE YOU
                 </h1>
-                <h1 className='font-semibold text-2xl text-third'>
+                <h1 className='font-semibold lg:text-2xl text-third'>
                     TO SELEBRATE OUR MARRIAGE
                 </h1>
-                <h1 className='font-semibold text-2xl mt-4 text-third px-3'>
-                    Assalamalaikum Warahmatullahi Wabarakatuh
+                <h1 className='font-semibold text-xl lg:text-2xl mt-4 text-third px-3'>
+                    Assalamu'alaikum Warahmatullahi Wabarakatuh
                 </h1>
-                <p className='font-semibold text-sm text-primary px-6'>
+                <p className='font-semibold text-sm lg:text-base text-primary px-6'>
                     Maha suci Allah yang telah menciptakan makhluk-Nya berpasang
                     - pasangan. Ya Allah, perkenankanlah kami merangkaikan kasih
                     sayang yang Kau ciptakan diantara kami
                 </p>
                 <div className='flex flex-col lg:flex-row items-center text-center justify-center mt-7 border-b-[4px] pb-3 lg:border-b-[4px] border-primary '>
-                    <div className='lg:w-1/2 mx-4'>
+                    <div
+                        className='lg:w-1/2 mx-4'
+                        data-aos='fade-right'
+                        data-aos-duration='2000'
+                    >
                         <div className='flex flex-col items-center justify-center'>
                             <div className='border-2 border-primary rounded-full mb-4'>
                                 <img
@@ -42,10 +46,14 @@ function Bride() {
                             </p>
                         </div>
                     </div>
-                    <div className='px-10'>
-                        <br />
+                    <div className='px-10 font-estetik text-gold text-6xl my-3 lg:mx-3 font-bold drop-shadow-lg'>
+                        <h1>&</h1>
                     </div>
-                    <div className='lg:w-1/2 mx-4'>
+                    <div
+                        className='lg:w-1/2 mx-4'
+                        data-aos='fade-left'
+                        data-aos-duration='2000'
+                    >
                         <div className='flex flex-col items-center justify-center'>
                             <div className='border-2 border-primary rounded-full mb-4'>
                                 <img
@@ -67,7 +75,7 @@ function Bride() {
                         </div>
                     </div>
                 </div>
-                <p className='font-semibold text-sm text-primary px-7'>
+                <p className='font-semibold text-sm mt-3 lg:text-base text-primary px-7'>
                     untuk melaksanakan syariat agama-Mu, mengikuti sunnah
                     rasul-Mu dalam membentuk rumah tangga Sakinah Mawaddah Wa
                     Rahmah dalam ikatan pernikahan

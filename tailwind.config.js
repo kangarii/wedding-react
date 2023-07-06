@@ -6,6 +6,10 @@ export default {
             fontFamily: {
                 poppins: 'Poppins',
                 estetik: 'Great Vibes',
+                notoserif: 'Noto Serif',
+                josefin: 'Josefin Sans',
+                estetik1: 'Playball',
+                estetik2: 'Arizonia',
             },
             colors: {
                 primary: 'rgba(66,99,138,255)',
