@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer
-            className='container flex flex-col items-center justify-center px-3'
-            data-aos='fade-up'
-            data-aos-duration='1000'
-        >
-            <div className='text-center'>
+        <footer className='container flex flex-col items-center justify-center px-3'>
+            <div
+                className='text-center'
+                data-aos='fade-up'
+                data-aos-duration='3000'
+            >
                 <p className='font-semibold text-sm text-primary mt-7'>
                     Atas kehadiran serta do'a restu Bapak/Ibu/Saudara/i kami
                     mengucapkan banyak terima kasih

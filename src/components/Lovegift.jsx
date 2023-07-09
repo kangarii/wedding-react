@@ -3,13 +3,13 @@ import React from 'react';
 function Lovegift() {
     const salin = () => {
         navigator.clipboard.writeText(
-            document.getElementById('button').getAttribute('dataNomor')
+            document.getElementById('button').getAttribute('datanomor')
         );
         alert('Tersalin');
     };
     const salin2 = () => {
         navigator.clipboard.writeText(
-            document.getElementById('button2').getAttribute('dataNomora')
+            document.getElementById('button2').getAttribute('datanomora')
         );
         alert('Tersalin');
     };
@@ -57,7 +57,7 @@ function Lovegift() {
                             data-aos-duration='2000'
                             id='button'
                             onClick={salin}
-                            dataNomor='123123'
+                            datanomor='123123'
                             className='bg-primary btn text-secondary px-5 py-1 rounded-xl mt-2 shadow-xl'
                         >
                             Salin No. Rekening
@@ -94,7 +94,7 @@ function Lovegift() {
                             data-aos-duration='2000'
                             id='button2'
                             onClick={salin2}
-                            dataNomora='321321'
+                            datanomora='321321'
                             className='bg-primary text-secondary px-5 py-1 rounded-xl mt-2 shadow-xl'
                         >
                             Salin No. Rekening

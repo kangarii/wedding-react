@@ -30,7 +30,7 @@ function Bride() {
                         <div className='flex flex-col items-center justify-center'>
                             <div className='border-2 border-primary rounded-full mb-4'>
                                 <img
-                                    src='https://cdn.discordapp.com/attachments/404590674370101248/1127164021716566036/women.png'
+                                    src='assets/women.png'
                                     className='rounded-full px-1 py-1 w-80'
                                     alt=''
                                 />
@@ -57,7 +57,7 @@ function Bride() {
                         <div className='flex flex-col items-center justify-center'>
                             <div className='border-2 border-primary rounded-full mb-4'>
                                 <img
-                                    src='https://cdn.discordapp.com/attachments/404590674370101248/1127164018939932762/men.png'
+                                    src='assets/men.png'
                                     className='rounded-full px-1 py-1 w-80'
                                     alt=''
                                 />

@@ -5,6 +5,7 @@ import Bride from '../components/Bride';
 import Quote from '../components/Quote';
 import Lovegift from '../components/Lovegift';
 import Akad from '../components/Akad';
+import Galery from '../components/Galery';
 
 export default function Lander() {
     return (
@@ -14,6 +15,7 @@ export default function Lander() {
             <Bride />
             <Quote />
             <Akad />
+            <Galery />
             <Lovegift />
             <Footer />
         </>
