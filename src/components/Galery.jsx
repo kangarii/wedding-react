@@ -47,7 +47,7 @@ export default function Example() {
                         </div>
                     </div>
                     <div
-                        className='flex flex-col lg:flex-row items-center justify-center lg:px-5 pb-4 pt-2 lg:pt-4 mt-2 bg-primary/40 rounded-2xl'
+                        className='flex flex-col lg:flex-row items-center justify-center px-2 lg:px-5 pb-4 pt-2 lg:pt-4 mt-2 bg-primary/40 rounded-2xl'
                         data-aos='fade-up'
                         data-aos-duration='1500'
                     >
