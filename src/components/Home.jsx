@@ -9,7 +9,7 @@ const Home = () => {
         >
             <div className='flex flex-col items-center justify-center '>
                 <img
-                    src='assets/flower/new/1.png'
+                    src='https://cdn.discordapp.com/attachments/404590674370101248/1127163759132168212/1.png'
                     alt=''
                     className='max-w-xs absolute -top-10'
                 />
@@ -20,8 +20,8 @@ const Home = () => {
                     </h1>
                     <div className='border-primary border-[2px] my-7 mx-5 rounded-full'>
                         <img
-                            src='assets/cp.png'
-                            alt=''
+                            src='https://cdn.discordapp.com/attachments/404590674370101248/1127163583097212928/cp.png'
+                            alt='couple'
                             className='rounded-full w-80 mx-1 my-1'
                         />
                     </div>
@@ -38,7 +38,7 @@ const Home = () => {
                     </button>
                 </div>
                 <img
-                    src='assets/flower/new/2.png'
+                    src='https://cdn.discordapp.com/attachments/404590674370101248/1127163800626401281/2.png'
                     alt=''
                     className='max-w-xs absolute -bottom-10'
                 />
